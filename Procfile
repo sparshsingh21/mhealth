@@ -1,1 +1,1 @@
-web: mentalhealth.wsgi --log-file -
+web: gunicorn mentalhealth.wsgi

@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'op6mvto18=hqs7v0$(0_#dea1+!9(30#e!7#%b138d9mlhdg(l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mhealth-app.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
